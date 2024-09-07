@@ -1,0 +1,25 @@
+# Node.js dependencies
+node_modules/
+
+# TypeScript build output
+dist/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# npm package lock file
+package-lock.json
+
+# TypeScript cache
+*.tsbuildinfo

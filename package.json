@@ -1,0 +1,21 @@
+{
+  "name": "hubspot-oa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/phoneCalls.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/phoneCalls.js",
+    "build": "tsc",
+    "prestart": "npm run build" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.5.4",
+    "@types/node-fetch": "^2.6.11",
+    "node-fetch": "^3.3.2",
+    "typescript": "^5.5.4"
+  }
+}
